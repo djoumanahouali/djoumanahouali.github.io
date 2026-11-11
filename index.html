@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Page d'accueil moderne en HTML" />
+  <title>Accueil</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="#" class="brand">Djoumana</a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="projets.html">Projets</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+<!-- Hero Section -->
+  <main id="accueil" class="container hero">
+    <section>
+      <span class="eyebrow">Bienvenue</span>
+      <!-- span : -->
+      <h1>Créez quelque chose de beau et de fort.</h1>
+      <img src="content-cyber-security.jpg" alt="Image représentant la cybersécurité" class="hero-image" />
+      <p class="lead">
+        Une page d'accueil élégante et moderne, pensée pour présenter un projet,
+        une marque ou un portfolio avec un design propre et responsive.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Nous contacter</a>
+        <a href="#services" class="btn btn-secondary">Voir les services</a>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <strong>3+</strong>
+          <span>années d'expérience</span>
+        </div>
+        <div class="stat">
+          <strong>25</strong>
+          <span>projets réalisés</span>
+        </div>
+        <div class="stat">
+          <strong>100%</strong>
+          <span>personnalisable</span>
+        </div>
+      </div>
+    </section>
+
+    <aside class="card" id="contact">
+      <h2>Pourquoi choisir ce design ?</h2>
+
+      <div class="feature">
+        <div class="feature-number">01</div>
+        <div>
+          <strong>Structure claire</strong>
+          <span>La page est facile à modifier et à faire évoluer selon vos besoins.</span>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="feature-number">02</div>
+        <div>
+          <strong>Responsive</strong>
+          <span>S'adapte automatiquement aux écrans mobiles, tablettes et ordinateurs.</span>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="feature-number">03</div>
+        <div>
+          <strong>Design moderne</strong>
+          <span>Un style épuré avec une palette douce et des blocs bien équilibrés.</span>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <section id="services" class="container section">
+    <div class="section-header">
+      <span class="eyebrow">Services</span>
+      <h3>Ce que je peux vous proposer</h3>
+    </div>
+
+    <div class="grid">
+      <article class="service">
+        <div class="icon">01</div>
+        
+        <h4>Site vitrine</h4>
+        <p>Une page moderne et élégante pour présenter votre activité, vos réalisations et vos services.</p>
+      </article>
+
+      <article class="service">
+        <div class="icon">02</div>
+        <h4>Portfolio</h4>
+        <p>Mettre en avant vos compétences, vos projets et votre identité visuelle de manière professionnelle.</p>
+      </article>
+
+      <article class="service">
+        <div class="icon">03</div>
+        <h4>Landing page</h4>
+        <p>Créer une page de conversion claire et performante pour capter l’attention de vos visiteurs.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="container section" aria-labelledby="services-table-title">
+    <div class="section-header">
+      <span class="eyebrow">En résumé</span>
+      <h3 id="services-table-title">Les services en un coup d'œil</h3>
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Service</th>
+            <th scope="col">Description</th>
+            <th scope="col">Objectif</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Site vitrine</th>
+            <td>Présenter votre activité, vos réalisations et vos services.</td>
+            <td>Valoriser votre activité en ligne.</td>
+          </tr>
+          <tr>
+            <th scope="row">Portfolio</th>
+            <td>Mettre en avant vos compétences, vos projets et votre identité visuelle.</td>
+            <td>Présenter votre travail de manière professionnelle.</td>
+          </tr>
+          <tr>
+            <th scope="row">Landing page</th>
+            <td>Créer une page de conversion claire et performante.</td>
+            <td>Capter l'attention des visiteurs.</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="col">Trois solutions pour présenter et développer votre activité.</th>
+            <td scope="col">Description</td>
+            <td scope="col">Objectif</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2026 Djoumana</span>
+      <span id="projets">Projet HTML simple et personnalisable</span>
+    </div>
+  </footer>
+</body>
+</html>
+ 

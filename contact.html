@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Page de contact moderne" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="contact-page">
+  <header>
+    <div class="container nav">
+      <a href="index.html" class="brand">Djoumana</a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="projets.html">Projets</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container hero">
+    <span class="eyebrow">Contact</span>
+    <h1>Parlons de votre projet.</h1>
+    <p class="lead">
+      Vous avez une idée, un besoin ou un projet à lancer ? Écrivez-moi et je vous répondrai rapidement.
+    </p>
+  </main>
+
+  <section class="container content">
+    <aside class="card">
+      <div class="info-block">
+        <h2>Informations</h2>
+        <p>Une réponse claire, rapide et orientée solution.</p>
+      </div>
+
+      <div class="info-block">
+        <h2>Coordonnées</h2>
+        <ul class="info-list">
+          <li><span class="dot"></span><span>Email : contact@djoumana.fr</span></li>
+          <li><span class="dot"></span><span>Téléphone : +33 6 12 34 56 78</span></li>
+          <li><span class="dot"></span><span>Paris / Remote</span></li>
+        </ul>
+      </div>
+
+      <div class="info-block">
+        <h2>Disponibilité</h2>
+        <p>Je réponds généralement sous 24 à 48h.</p>
+      </div>
+    </aside>
+
+    <div class="card form-card">
+      <h2>Envoyer un message</h2>
+      <form>
+        <div class="row">
+          <div>
+            <label for="nom">Nom</label>
+            <input id="nom" type="text" placeholder="Votre nom" />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Votre email" />
+          </div>
+        </div>
+
+        <div>
+          <label for="sujet">Sujet</label>
+          <input id="sujet" type="text" placeholder="Objet de votre message" />
+        </div>
+
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Décrivez votre projet..."></textarea>
+        </div>
+
+        <button class="btn" type="submit">Envoyer</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2026 Djoumana</span>
+      <span>Contact • Projets • Création</span>
+    </div>
+  </footer>
+</body>
+</html>
